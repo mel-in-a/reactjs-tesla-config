@@ -10,6 +10,22 @@ h2 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border-bottom: 1px solid #5c48d3;
+    /* background-color:blue; */
+  }
+  .header i {
+    margin: 0 30px;
+    color: #5c48d3;
+  }
+  .header .title {
+    font-size: 30px;
+    font-weight: bolder;
+  }
 .container {
   display: flex;
   width: 60vw;
@@ -65,4 +81,24 @@ h2 {
   font-size: 2rem;
   cursor: pointer;
   margin-left: 40px;
+  background:#5c48d3;
+  color: white;
+  font-weight: bolder;
 }
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background-color: rgb(236, 236, 236);
+  
+    /* padding: 10px; */
+    color: black;
+    font-size: 12px;
+  }
