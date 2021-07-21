@@ -1,1 +1,68 @@
 /* Other rules */
+* {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.container {
+  display: flex;
+  width: 60vw;
+  margin: 60px auto;
+  text-align: center;
+}
+.container-vertical {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  width: 100%;
+}
+
+.total {
+  color: rgb(186, 149, 221);
+  transition: 0.2s;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.vehicle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+}
+
+.price1,
+.price2,
+.price3,
+.price4 {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.selected {
+  background: #afffaf;
+}
+
+.total button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 40px;
+}
