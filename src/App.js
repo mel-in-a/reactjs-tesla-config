@@ -25,7 +25,7 @@ function App() {
           <div class="price4" onClick={() => setPrice2(1000)} style={{ backgroundColor: price2 === 1000 ? "rgb(186, 149, 221)" : ""}}>Noir uni - 1000 €</div>
         </div>
         <div className="total" >{price1 + price2} € 
-         {price1 + price2 > 0 ?   <span><button onClick={() => alert('Yeah, je roule en Tesla :)')}>Buy !</button></span> : ''}
+         { price1 > 0 ?   <span><button onClick={() => alert('Yeah, je roule en Tesla :)')}>Buy !</button></span> : ''}
       
         </div>
         
